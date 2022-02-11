@@ -1,0 +1,30 @@
+.intro_section {
+  position: relative;
+  margin: -100px 0 0;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba($min_color, 0.3);
+  }
+  .intro_title {
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+    color: rgba($white_color, 1);
+    span {
+      color: rgba($min_color, 1);
+    }
+  }
+}

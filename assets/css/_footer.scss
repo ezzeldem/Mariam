@@ -1,0 +1,54 @@
+.footer_section {
+  padding: 60px 0 40px;
+  border-top: 1px solid rgba($gray_color, 0.1);
+  .footer_ul {
+    margin: 10px 0;
+    .prag {
+      font-size: 14px;
+      color: rgba($gray_color, 1);
+      width: 70%;
+      font-weight: 550;
+    }
+    .footer_title {
+      font-size: 16px;
+      font-weight: 700;
+      color: rgba($third_color, 1);
+      margin: 0 0 30px;
+    }
+    ul {
+      li {
+        margin: 10px 20px 10px 0;
+        a {
+          padding-left: 15px;
+          display: inline-block;
+          color: rgba($min_color, 1);
+          @extend%trans4;
+          position: relative;
+          font-weight: 450;
+          font-size: 16px;
+          &:after {
+            font-size: 14px;
+            content: "\f053";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: rotatey(180deg) translateY(-50%);
+            color: rgba($third_color, 1);
+          }
+          &:hover {
+            color: rgba($third_color, 1);
+          }
+        }
+      }
+    }
+  }
+
+  .copy_box {
+    border-top: 1px solid rgba($gray_color, 0.1);
+    padding: 25px 0 0;
+    margin: 25px 0 0;
+    text-align: center;
+  }
+}

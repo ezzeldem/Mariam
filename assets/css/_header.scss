@@ -1,0 +1,42 @@
+.header_section{
+  padding: 20px 0;
+  position: relative;
+  z-index: 999;
+  .logo_box{
+    a{
+      img{
+        height: 60px;
+      }
+    }
+  }
+  .end_side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+  }
+  .nav_link{
+    .sochile_link{
+      display: none;
+    }
+  }
+  .nav_link, .sochile_link{
+    ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+      li{
+        padding: 0 20px;
+        a{
+          color: rgba($white_color, 1.0);
+          @extend%trans4;
+          font-weight: 550;
+          font-size: 18px;
+          &:hover{
+            color: rgba($third_color, 1.0);
+          }
+        }
+      }
+    }
+  }
+}

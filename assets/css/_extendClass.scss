@@ -1,0 +1,22 @@
+// extendClass
+
+%trans4 {
+  transition: 0.4s all ease-in-out;
+}
+
+%full_link {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+}
+%box_style {
+    position: relative;
+    padding: 35px 50px 35px 50px;
+    box-shadow: rgb(209, 217, 230) 5px 5px 15px 0px,
+      rgb(255, 255, 255) -5px -5px 15px 0px;
+    border-radius: 10px;
+    @extend%trans4;
+    background: linear-gradient(to right bottom, #e2e8ec, #fff);
+    z-index: 1;
+}
+// extendClass
