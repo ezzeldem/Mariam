@@ -109,3 +109,17 @@ body {
     }
   }
 }
+
+.over_lay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: none;
+  background-color: rgba($black_color, 0.5);
+}
+
+.opne_menu {
+  left: 0 !important;
+}

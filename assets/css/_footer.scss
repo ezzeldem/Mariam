@@ -1,6 +1,8 @@
 .footer_section {
   padding: 60px 0 40px;
   border-top: 1px solid rgba($gray_color, 0.1);
+  background: linear-gradient(180deg, #71717304 10%, #71717357 100%);
+
   .footer_ul {
     margin: 10px 0;
     .prag {
@@ -10,7 +12,7 @@
       font-weight: 550;
     }
     .footer_title {
-      font-size: 16px;
+      font-size: 16px;    
       font-weight: 700;
       color: rgba($third_color, 1);
       margin: 0 0 30px;
@@ -50,5 +52,8 @@
     padding: 25px 0 0;
     margin: 25px 0 0;
     text-align: center;
+    .prag{
+      font-weight: 550;
+    }
   }
 }
