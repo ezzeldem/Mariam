@@ -68,6 +68,7 @@
     padding: 100px 40px 0;
     box-shadow: 0 0 16px 0 rgba($black_color, 0.2);
     transition: 0.4s all ease-in-out;
+    z-index: 9999;
     &::after {
       content: "";
       bottom: 50px;

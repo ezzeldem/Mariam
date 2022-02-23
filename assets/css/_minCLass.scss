@@ -118,7 +118,9 @@ body {
   bottom: 0;
   display: none;
   background-color: rgba($black_color, 0.5);
+  z-index: 999;
 }
+
 
 .opne_menu {
   left: 0 !important;
