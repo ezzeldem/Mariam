@@ -496,8 +496,12 @@ body {
           justify-content: flex-end;
 }
 
+.header_section .opne_buttom {
+  display: none !important;
+}
+
 .header_section .nav_link .sochile_link,
-.header_section .nav_link .time_icon, .header_section .nav_link .opne_buttom {
+.header_section .nav_link .time_icon {
   display: none;
 }
 

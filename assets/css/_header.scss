@@ -14,9 +14,12 @@
     align-items: center;
     justify-content: flex-end;
   }
+  .opne_buttom {
+    display: none !important;
+  }
   .nav_link {
     .sochile_link,
-    .time_icon,.opne_buttom {
+    .time_icon {
       display: none;
     }
   }
